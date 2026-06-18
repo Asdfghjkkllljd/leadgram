@@ -9,7 +9,7 @@ on:
         type: string
 
       display_name:
-        description: "App Name (Optional)"
+        description: "App Name"
         default: "Swiftgram"
         required: true
         type: choice
