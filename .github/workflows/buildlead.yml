@@ -75,8 +75,9 @@ jobs:
 
       - name: Get Lead Version
         run: |
-          DEB_FILE=$(ls resources/com.w3ltyyy.lead_*.deb)
-          echo "LEAD_VERSION=$(echo $DEB_FILE | sed 's/.*lead_\([^_]*\).*/\1/')" >> $GITHUB_ENV
+          DEB_FILE=$(ls resources/*.deb)
+          LEAD_VERSION=$(echo "$DEB_FILE" | grep -oP '\d+\.\d+\.\d+' | head -1)
+          echo "LEAD_VERSION=$LEAD_VERSION" >> $GITHUB_ENV
 
       - name: Install Dependencies
         run: brew install make ldid
