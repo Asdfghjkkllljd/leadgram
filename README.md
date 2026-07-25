@@ -1,4 +1,4 @@
-# Lead 1.4.3
+# Lead 1.4.4
 A simple Telegram iOS Tweak.
 
 To Open Tweak menu : Open settings and scroll down to "Ask a Question" and hold press to pull up the settings.
@@ -13,7 +13,7 @@ To Open Tweak menu : Open settings and scroll down to "Ask a Question" and hold 
 - Anti-Screenshot — take screenshots without notifications.
 - Anti-Self-Destruct — disappearing photos and videos no longer disappear.
 - Anti-Revoke — deleted messages no longer disappear for you.
-- Anti-Edit — view the original text even after it’s been edited. (Work in Progress)
+- Anti-Edit — view the original text even after it’s been edited.
 
 
 Tweak by [@Lead](https://t.me/Leadgramm) and Changelogs can be found inside the channel.
