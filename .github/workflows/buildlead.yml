@@ -23,7 +23,7 @@ jobs:
           cp ${{ github.workspace }}/Tweak.x .
           cat > Makefile <<'EOF'
           TARGET := iphone:clang:latest:15.0
-          ARCHS = arm64
+          ARCHS = arm64 arm64e
           include $(THEOS)/makefiles/common.mk
           LIBRARY_NAME = TgSendDelay
           TgSendDelay_FILES = Tweak.x
