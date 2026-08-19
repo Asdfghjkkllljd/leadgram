@@ -27,6 +27,7 @@ jobs:
           include $(THEOS)/makefiles/common.mk
           LIBRARY_NAME = TgSendDelay
           TgSendDelay_FILES = Tweak.x
+          TgSendDelay_CFLAGS = -fobjc-arc
           TgSendDelay_INSTALL_PATH = /usr/lib
           TgSendDelay_FRAMEWORKS = UIKit Foundation
           include $(THEOS_MAKE_PATH)/library.mk
